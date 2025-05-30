@@ -5,16 +5,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <style>
+        img {
+            opacity: 0.7;
+        }
         body {
-            background: radial-gradient(circle,#005376 35%,#f5c71ff8,#14a08b);
-            padding-top: 35px;
+           background: radial-gradient(circle,#005376 35%,#f5c71ff8,#14a08b);
+
+            padding-top: 10px;
             }
 
             div {
+                opacity: 0.7;
                 display: inline-block;
-                background-color: #8ee5d8e7;
+                background-color: rgba(186, 214, 134, 0.938);
                 width: 350px;
-                height: 115px;
+                height: 100px;
                 border-radius: 10px;
                 font-size: 25px;
                 text-align: center;
@@ -23,16 +28,21 @@
 
             .espaço {
                 margin-left: 25px;
+                
 
             }
             .espaço2 {
                 margin-left: 245px;
+                
             }
 
             .espaço3 {
+                background-image: url(IMG-20250506-WA0002.jpg);
+                background-size: 600px 250px;
+                background-repeat: no-repeat;
                 background-color: rgba(186, 214, 134, 0.938);
                 width: 600px;
-                height: 180px;
+                height: 250px;
                 border-radius: 15px;
                 font-size: 25px;
                 text-align: center;
@@ -42,31 +52,50 @@
                 margin-left: 525px;
             }
 
+            div#q1 {
+                background-position:left top;
+            }
+            div#q2 {
+                background-position: right top;
+            }
+            div#q3 {
+                background-position: left center;
+            }
+            div#q4 {
+                background-position: right center;
+            }
+            div#q5 {
+                background-position: bottom;
+            }
+            img {
+                border-radius: 8px;
+            }
+
     </style>
     
 </head>
 <body>
-    <span class="espaço4"><img src="IMG-20250506-WA0002.jpg" width="160px" height="130px">
+    <span class="espaço4"><img src="IMG-20250506-WA0002.jpg" width="190px" height="110px">
    </span> 
    <br>
     <br>
-    <div class="espaço2">
+    <div class="espaço2" id="q1">
        
     </div>
-    <div class="espaço">
+    <div class="espaço" id="q2">
        
     </div>
     <br>
     <br>
-    <div class="espaço2">
+    <div class="espaço2" id="q3">
         
     </div>
-    <div class="espaço">
+    <div class="espaço" id="q4">
         
     </div>
     <br>
     <br>
-    <div class="espaço3">
+    <div class="espaço3" id="q5">
 
     </div>
 </body>
